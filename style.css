@@ -1,2 +1,37 @@
+/*-- GENERAL --*/
+
+:root{
+    --grey1: #F9F9F9;
+    --grey2: #333333;
+    --pink: #DD71C6;
+    --blue: #0083D3;
+    --yellow: #FFD900;
+}
+
 body{
+    margin: 0;
+}
+
+header, #content, footer{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.clear{
+    clear: both;
+}
+
+/*-- HEADER --*/
+
+h1{
+    float: left;
+}
+
+nav{
+    float: right;
+    height: 64px;
+}
+
+nav ul li{
+    display: inline-block;
 }
