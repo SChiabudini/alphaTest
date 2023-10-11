@@ -45,7 +45,7 @@ h1{
     margin: 0;
 }
 
-h1 img{
+h1 img.logo{
     width: 140px;
 }
 
@@ -339,7 +339,91 @@ h4{
     background-color: white;
 }
 
+
+
 /*-- FOOTER --*/
 
-footer{
+footer section{
+    padding-bottom: 1rem;
+}
+
+footer img.logo{
+    width: 140px;
+}
+
+footer section.left{
+    float: left;
+    width: 40%;
+}
+
+footer section.left p{
+    line-height: 26px;
+    margin: 2rem 0;
+}
+
+footer section.left p img{
+    width: 20px;
+    margin-right: 14px;
+}
+
+footer section.left p span.black{
+    font-weight: 700;
+}
+
+footer section.right{
+    float: right;
+    width: 37%;
+}
+
+footer section.right article.left {
+    float: left;
+}
+
+footer section.right article.right {
+    float: right;
+}
+
+footer section.right article h4{
+    margin: 1rem 0 3rem;
+}
+
+footer section.right article ul{
+    margin: 0;
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+footer section.right article li{
+    margin: 0 0 1.5rem;
+}
+
+footer section.right article li a{
+    color: var(--grey2);
+    text-decoration: none;
+}
+
+footer section.right article li a:hover{
+    text-decoration: underline;
+}
+
+footer section#bottom{
+    margin: 2rem 0 2rem;
+    padding: 0;
+}
+
+footer section#bottom .social{
+    float: left;
+}
+
+footer section#bottom .social a{
+    margin-right: 1rem;
+}
+
+footer section#bottom .social img{
+    width: 30px;
+}
+
+footer section#bottom p{
+    margin: 0;
+    float: right;
 }
