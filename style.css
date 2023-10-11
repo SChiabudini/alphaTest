@@ -33,6 +33,17 @@ body{
     color: var(--pink);
 }
 
+#yellow-bar{
+    width: 30%;
+    height: 100vh;
+    z-index: -1;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: var(--yellow);
+    border-radius: 3rem 0 0 0;
+}
+
 /*-- HEADER --*/
 
 header{
@@ -145,14 +156,57 @@ h4{
     clear: both;
 }
 
-#counter{
+#countdown {
     position: absolute;
     right: 0;
-    background-color: red;
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.5);
     width: 55%;
-    height: 100px;
-    margin-top: 50px;
+    height: 320px;
+    border-radius: 3rem;
+    padding: 3rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+#countdown .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+#countdown p {
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+}
+
+#days-container, #hours-container, #minutes-container, #seconds-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(25% - 2%);
+}
+
+.time-label {
+    color: var(--blue);
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+#days, #hours, #minutes, #seconds{
+    font-weight: 500;
+    font-size: 50px;
+    margin-top: 1.5rem;
 }
 
 /*-- SECOND SECTION --*/
@@ -233,10 +287,10 @@ h4{
 }
 
 #third-section .container {
-    background-image: url('img/main/third-section.png'); /* Reemplaza 'tu-imagen.png' por la ruta de tu imagen de fondo */
+    background-image: url('img/main/third-section.png');
     background-repeat: no-repeat;
     background-position: right top;
-    background-size: auto 100%; /* Ajusta el tamaño de fondo según tus necesidades */
+    background-size: auto 100%;
 }
 
 #third-section .container h3{
@@ -279,6 +333,7 @@ h4{
 
 #fifth-section{
     text-align: center;
+    background-color: var(--grey1);
 }
 
 #fifth-section h3{
@@ -339,9 +394,49 @@ h4{
     background-color: white;
 }
 
+#sixth-section h3{
+    margin-bottom: 64px;
+}
 
+#sixth-section .faq .question{
+    background-color: var(--grey1);
+    height: 64px;
+    line-height: 64px;
+    margin-bottom: 30px;
+    border-radius: 1rem;    
+}
+
+#sixth-section .faq .question p{
+    margin: 0 60px 0 20px;
+    font-weight: 500;
+    background-image: url('img/icons/arrow-down.svg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 30px;
+}
+
+
+#sixth-section .faq .answer {
+    display: none;
+    padding: 20px 20px 30px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+#sixth-section .faq .answer p{
+    margin: 0;
+}
+
+#sixth-section button {
+    display: block;
+    margin: 80px auto 0;
+  }
 
 /*-- FOOTER --*/
+
+footer{
+    background-color: var(--grey1);
+}
 
 footer section{
     padding-bottom: 1rem;
@@ -407,8 +502,8 @@ footer section.right article li a:hover{
 }
 
 footer section#bottom{
-    margin: 2rem 0 2rem;
-    padding: 0;
+    margin: 2rem 0 0;
+    padding: 0 0 2rem;
 }
 
 footer section#bottom .social{
