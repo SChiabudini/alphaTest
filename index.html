@@ -9,7 +9,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>A Better Weigh</title>
     <link rel="stylesheet" href="./style.css">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap" rel="stylesheet">
   </head>
   
   <!-- BODY  -->
@@ -19,7 +22,8 @@
     <!-- HEADER -->
 
     <header>
-        <h1><img src="img/main/logo.png" title="A Better Weigh, Inc - Medical Weight Loss Center" alt="A Better Weigh Logo"></h1>
+      <div class="container">
+        <h1><img src="img/main/logo.svg" title="A Better Weigh, Inc - Medical Weight Loss Center" alt="A Better Weigh Logo"></h1>
         <nav>
           <ul>
             <li><a href="">About Us</a></li>
@@ -33,49 +37,61 @@
           </ul>
         </nav>
         <div class="clear"></div>
+      </div>
     </header>
 
     <!-- CONTENT -->
 
     <div id="content">
 
-      <section>
-        <div>
-          <h2>Chicago’s <span>Free</span> Medical Check-Up and Weight Loss Consultation</h2>
-          <p>Limited spots available due to the Physicians schedule and the high demand for service. No credit card or insurance required.</p>
-          <button>Book my appointment</button>
-        </div>
-        <div>
-          <!--CONTADOR-->
+      <section id="first-section">
+          <div id="first-section-content" class="container">
+            <h2>Chicago’s <span class="pink">Free</span> Medical Check-Up and Weight Loss Consultation</h2>
+            <p>Limited spots available due to the Physicians schedule and the high demand for service. No credit card or insurance required.</p>
+            <button>Book my appointment</button>
+            <div id="counter">
+              <!--CONTADOR-->
+            </div>
+            <div class="clear"></div>
+          </div>
+      </section>
+      
+      <section id="second-section">
+        <div id="second-section-content" class="container">
+          <article>
+            <div class="article-content">
+              <img src="img/icons/article-icon-1.svg">
+              <p class="big-number">10 <span class="plus-sign">+</span></p>
+              <p>years in business</p>
+            </div>
+          </article>
+          <article>
+            <div class="article-content">
+              <img src="img/icons/article-icon-2.svg">
+              <p class="big-number">2000 <span class="plus-sign">+</span></p>
+              <p>positive reviews</p>
+            </div>
+          </article>
+          <article>
+            <div class="article-content">
+              <img src="img/icons/article-icon-3.svg">
+              <p class="big-number">15.000 <span class="plus-sign">+</span></p>
+              <p>satisfied clients</p>
+            </div>
+          </article>
+          <article>
+            <div class="article-content">
+              <img src="img/icons/article-icon-4.svg">
+              <p class="big-number">Many <span class="plus-sign">+</span></p>
+              <p>nurses and physician assistants on staff</p>
+            </div>
+          </article>
+          <button class="yellow-button">Book my appointment</button>
         </div>
       </section>
       
-      <section>
-        <article>
-          <img>
-          <p>10</p>
-          <p>years in business</p>
-        </article>
-        <article>
-          <img>
-          <p>2000</p>
-          <p>positive reviews</p>
-        </article>
-        <article>
-          <img>
-          <p>15.000</p>
-          <p>satisfied clients</p>
-        </article>
-        <article>
-          <img>
-          <p>Many</p>
-          <p>nurses and physician assistants on staff</p>
-        </article>
-        <button>Book my appointment</button>
-      </section>
-      
-      <section>
-        <div>
+      <section id="third-section">
+        <div class="container">
           <h3>Who Is The Consultation For?</h3>
           <p>Chicago’s free medical check-up and weight loss consultation is for Chicago residents who are looking to lose weight so they can live a long, vibrant and healthy life, while looking good and not breaking the bank.</p>
           <h3>How Does It Work?</h3>
@@ -84,85 +100,94 @@
         </div>
       </section>
       
-      <section>
-        <h3>We Can Help You</h3>
-        <p>For those of us who struggle with our weight it’s easy to lose hope. We have seen so many tricks, gimmicks and weight loss programs that simply do not work for us. They want us to eat like a pigeon, avoid all the things we love to eat and work out till we cry. We are here to tell you that it doesn’t have to be that way. There is hope! Technology has advanced rapidly in recent years and now, with proper guidance...</p>
-        <p>You can join the ranks of our over 15,000 satisfied clients who have lost weight, regained their confidence and are living happy exuberant lives with their family. They did this without: breaking the bank, sweating buckets in intense workout programs, and most importantly, without giving up ice-cream, bread, pizza, doughnuts and all their favorite foods.</p>
-        <button>Book my appointment</button>
-        <img>
+      <section id="fourth-section">
+        <div class="container">
+          <h3>We Can Help You</h3>
+          <p>For those of us who struggle with our weight it’s easy to lose hope. We have seen so many tricks, gimmicks and weight loss programs that simply do not work for us. They want us to eat like a pigeon, avoid all the things we love to eat and work out till we cry. We are here to tell you that it doesn’t have to be that way. There is hope! Technology has advanced rapidly in recent years and now, with proper guidance...</p>
+          <p>You can join the ranks of our over 15,000 satisfied clients who have lost weight, regained their confidence and are living happy exuberant lives with their family. They did this without: breaking the bank, sweating buckets in intense workout programs, and most importantly, without giving up ice-cream, bread, pizza, doughnuts and all their favorite foods.</p>
+          <button>Book my appointment</button>
+          <img src="img/main/fourth-section.png">
+        </div>
       </section>
       
-      <section>
-        <h3>What You’ll Get At Your <span>Free</span> Consultation</h3>
-        <article>
-          <h4>Body Mass Index</h4>
-          <ul>
-            <li>Complete understanding of your body composition</li>
-            <li>A clear view of your weight loss goals</li>
-            <li>Clear data to help you make an informed decision about your health</li>
-          </ul>
-        </article>
-        <article>
-          <h4>Vital Signs Check</h4>
-          <ul>
-            <li>Body temperature</li>
-            <li>Pulse rate, heart's rate, rhythm and regularity</li>
-            <li>Breathing rate</li>
-            <li>Blood pressure</li>
-          </ul>
-        </article>
-        <button>Book my appointment</button>
+      <section id="fifth-section">
+          <div class="container">
+          <h3>What You’ll Get At Your <span class="pink">Free</span> Consultation</h3>
+          <article class="left">
+            <h4>Body Mass Index</h4>
+            <ul>
+              <li>Complete understanding of your body composition</li>
+              <li>A clear view of your weight loss goals</li>
+              <li>Clear data to help you make an informed decision about your health</li>
+            </ul>
+          </article>
+          <article class="right">
+            <h4>Vital Signs Check</h4>
+            <ul>
+              <li>Body temperature</li>
+              <li>Pulse rate, heart's rate, rhythm and regularity</li>
+              <li>Breathing rate</li>
+              <li>Blood pressure</li>
+            </ul>
+          </article>
+          <div class="clear"></div>
+          <button>Book my appointment</button>
+        </div>
       </section>
       
-      <section>
-        <h3>Frequently Asked Questions</h3>
-        <!--FAQS-->
-        <button>Book my appointment</button>
+      <section id="sixth-section">
+        <div class="container">
+          <h3>Frequently Asked Questions</h3>
+          <!--FAQS-->
+          <button>Book my appointment</button>
+        </div>
       </section>
     
     </div>
     
+
     <!-- FOOTER -->
     
     <footer>
       
-      <section>
-        <img src="img/main/logo.png" title="A Better Weigh, Inc - Medical Weight Loss Center" alt="A Better Weigh Logo">
-        <p>A Better Weigh Medical Weight Loss Center offers a weight loss program dedicated to helping you achieve long term weight loss success with the use of FDA approved medication.</p>
-        <p><img><span>Head Office:</span> 1931 W 95th Streeet Chicago IL, 60643</p>
-        <p><img><span>Phone:</span> 773-496-4222</p>
-        <div>
-          <a><img></a>
-          <a><img></a>
-          <a><img></a>
-        </div>
-      </section>
+      <div class="container">
+        <section>
+          <img src="img/main/logo.svg" title="A Better Weigh, Inc - Medical Weight Loss Center" alt="A Better Weigh Logo">
+          <p>A Better Weigh Medical Weight Loss Center offers a weight loss program dedicated to helping you achieve long term weight loss success with the use of FDA approved medication.</p>
+          <p><img><span>Head Office:</span> 1931 W 95th Streeet Chicago IL, 60643</p>
+          <p><img><span>Phone:</span> 773-496-4222</p>
+          <div>
+            <a><img></a>
+            <a><img></a>
+            <a><img></a>
+          </div>
+        </section>
 
-      <section>
-        <article>
-          <h4>About</h4>
-          <ul>
-            <li><a>About Us</a></li>
-            <li><a>Book Online</a></li>
-            <li><a>Locations</a></li>
-            <li><a>Real Patient Stories</a></li>
-            <li><a>Weight Loss Program</a></li>
-          </ul>
-        </article>
-        <article>
-          <h4>More Links</h4>
-          <ul>
-            <li><a>Franchise Opportunities</a></li>
-            <li><a>Career Opportunities</a></li>
-            <li><a>Privacy Policy</a></li>
-            <li><a>Terms & Conditions</a></li>
-            <li><a>Return Policy</a></li>
-          </ul>
-        </article>
+        <section>
+          <article>
+            <h4>About</h4>
+            <ul>
+              <li><a>About Us</a></li>
+              <li><a>Book Online</a></li>
+              <li><a>Locations</a></li>
+              <li><a>Real Patient Stories</a></li>
+              <li><a>Weight Loss Program</a></li>
+            </ul>
+          </article>
+          <article>
+            <h4>More Links</h4>
+            <ul>
+              <li><a>Franchise Opportunities</a></li>
+              <li><a>Career Opportunities</a></li>
+              <li><a>Privacy Policy</a></li>
+              <li><a>Terms & Conditions</a></li>
+              <li><a>Return Policy</a></li>
+            </ul>
+          </article>
 
-        <p>Copyright by A Better Weigh Inc. All rights reserved.</p>
-      </section>
-    
+          <p>Copyright by A Better Weigh Inc. All rights reserved.</p>
+        </section>
+      </div>
     </footer>
   </body>
 </html>
