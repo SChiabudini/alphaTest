@@ -24,6 +24,7 @@ body{
 .container{
     width: 1140px;
     margin: 0 auto;
+    position: relative;
 }
 
 .clear{
@@ -44,6 +45,27 @@ body{
     background-color: var(--yellow);
     border-radius: 3rem 0 0 0;
 }
+
+.circleOne{
+    border: 28px solid rgba(255, 255, 255, 1);
+    border-radius: 100%;
+    position: absolute;
+    top: 25%;
+    left: -10%;
+    width: 20rem;
+    height: 20rem;
+}
+
+.circleTwo{
+    border: 28px solid rgba(255, 255, 255, 0.15);
+    border-radius: 100%;
+    position: absolute;
+    top: 25%;
+    right: -10%;
+    width: 25rem;
+    height: 25rem;
+}
+
 
 /*-- HEADER --*/
 
@@ -247,6 +269,26 @@ h4{
     margin: 0 auto;
 }
 
+#second-section-content .circleOne{
+    border: 20px solid rgba(255, 255, 255, 0.15);
+    border-radius: 100%;
+    position: absolute;
+    top: 25%;
+    left: -5%;
+    width: 5rem;
+    height: 5rem;
+}
+
+#second-section-content .circleTwo{
+    border: 20px solid rgba(255, 255, 255, 0.15);
+    border-radius: 100%;
+    position: absolute;
+    top: 5%;
+    right: -25%;
+    width: 15rem;
+    height: 15rem;
+}
+
 #second-section-content article{
     width: calc(25% - 40px);
     background-color: white;
@@ -316,6 +358,26 @@ h4{
     background-size: auto 100%;
 }
 
+#third-section .circleOne{
+    border: 20px solid rgba(255, 255, 255, 1);
+    border-radius: 100%;
+    position: absolute;
+    top: 40%;
+    left: -20%;
+    width: 10rem;
+    height: 10rem;
+}
+
+#third-section .circleTwo{
+    border: 20px solid rgba(255, 255, 255, 0.15);
+    border-radius: 100%;
+    position: absolute;
+    top: 5%;
+    right: -35%;
+    width: 20rem;
+    height: 20rem;
+}
+
 #third-section .container h3{
     margin: 0 0 15px;
     color: white;
@@ -363,6 +425,36 @@ h4{
 #fifth-section{
     text-align: center;
     background-color: var(--grey1);
+}
+
+#fifth-section .circleOne{
+    border: 20px solid rgba(255, 255, 255, 1);
+    border-radius: 100%;
+    position: absolute;
+    top: 25%;
+    left: -25%;
+    width: 15rem;
+    height: 15rem;
+}
+
+#fifth-section .circleTwo{
+    border: 20px solid rgba(255, 255, 255, 1);
+    border-radius: 100%;
+    position: absolute;
+    top: 5%;
+    right: -15%;
+    width: 10rem;
+    height: 10rem;
+}
+
+#fifth-section .circleThree{
+    border: 20px solid rgba(255, 255, 255, 1);
+    border-radius: 100%;
+    position: absolute;
+    top: 80%;
+    right: -5%;
+    width: 5rem;
+    height: 5rem;
 }
 
 #fifth-section h3{
@@ -423,6 +515,36 @@ h4{
     background-color: white;
 }
 
+#sixth-section .circleOne{
+    border: 20px solid var(--grey1);
+    border-radius: 100%;
+    position: absolute;
+    top: 25%;
+    left: -30%;
+    width: 15rem;
+    height: 15rem;
+}
+
+#sixth-section .circleTwo{
+    border: 20px solid var(--grey1);
+    border-radius: 100%;
+    position: absolute;
+    top: 5%;
+    right: -20%;
+    width: 10rem;
+    height: 10rem;
+}
+
+#sixth-section .circleThree{
+    border: 20px solid var(--grey1);
+    border-radius: 100%;
+    position: absolute;
+    top: 80%;
+    right: -15%;
+    width: 5rem;
+    height: 5rem;
+}
+
 #sixth-section h3{
     margin-bottom: 64px;
 }
@@ -465,6 +587,26 @@ h4{
 
 footer{
     background-color: var(--grey1);
+}
+
+footer .circleOne{
+    border: 20px solid white;
+    border-radius: 100%;
+    position: absolute;
+    top: 25%;
+    left: -30%;
+    width: 15rem;
+    height: 15rem;
+}
+
+footer .circleTwo{
+    border: 20px solid white;
+    border-radius: 100%;
+    position: absolute;
+    top: 5%;
+    right: -20%;
+    width: 10rem;
+    height: 10rem;
 }
 
 footer section{
