@@ -10,6 +10,7 @@
     <title>A Better Weigh</title>
     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style-tablet.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&display=swap" rel="stylesheet">
@@ -28,7 +29,15 @@
     <header>
       <div class="container">
         <h1><img src="img/main/logo.svg" title="A Better Weigh, Inc - Medical Weight Loss Center" alt="A Better Weigh Logo" class="logo"></h1>
+
+
+
         <nav>
+          <button class="burguer-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </button>
           <ul>
             <li><a href="">About Us</a></li>
             <li><a href="">Book Online</a></li>
@@ -52,9 +61,9 @@
 
       <section id="first-section">
           <div id="first-section-content" class="container">
+
             <h2>Chicago’s <span class="pink">Free</span> Medical Check-Up and Weight Loss Consultation</h2>
-            <p>Limited spots available due to the Physicians schedule and the high demand for service. No credit card or insurance required.</p>
-            <button>Book my appointment</button>
+            <p id="spots-available">Only <span class="pink" style="font-weight: 700;">11</span> spots available!</p>
             <div id="countdown">
               <p>Your offer ends in:</p>
               <div class="content">
@@ -76,7 +85,10 @@
                 </div>
               </div>
             </div>
+            <p>Limited spots available due to the Physicians schedule and the high demand for service. No credit card or insurance required.</p>
+            <button>Book my appointment</button>
             <div class="clear"></div>
+            
           </div>
       </section>
 
@@ -134,9 +146,11 @@
         <div class="container">
           <h3>We Can Help You</h3>
           <p>For those of us who struggle with our weight it’s easy to lose hope. We have seen so many tricks, gimmicks and weight loss programs that simply do not work for us. They want us to eat like a pigeon, avoid all the things we love to eat and work out till we cry. We are here to tell you that it doesn’t have to be that way. There is hope! Technology has advanced rapidly in recent years and now, with proper guidance...</p>
+          <div class="mobile"><img src="img/main/fouth-section-mobile.jpg" alt="Medical staff" class="mobile"></div>
           <p>You can join the ranks of our over 15,000 satisfied clients who have lost weight, regained their confidence and are living happy exuberant lives with their family. They did this without: breaking the bank, sweating buckets in intense workout programs, and most importantly, without giving up ice-cream, bread, pizza, doughnuts and all their favorite foods.</p>
-          <button>Book my appointment</button>
-          <img src="img/main/fourth-section.png">
+          <button class="mobile">See patient stories</button>
+          <button class="desk">Book my appointment</button>
+          <img src="img/main/fourth-section.png" alt="Happy clients" class="desk">
         </div>
       </section>
       

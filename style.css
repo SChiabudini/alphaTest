@@ -35,7 +35,7 @@ body{
 
 #yellow-bar{
     width: 30%;
-    height: 100vh;
+    height: 9999px;
     z-index: -1;
     position: fixed;
     right: 0;
@@ -84,6 +84,25 @@ nav ul li a:hover{
     color: var(--pink);
 }
 
+/*-- BURGUER MENU --*/
+
+.burguer-menu {
+    display: none; /* Oculta el botón por defecto */
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    float: right;
+    margin-top: 26px;
+  }
+
+.bar {
+    width: 30px;
+    height: 3px;
+    background-color: var(--pink);
+    margin: 6px 0;
+    transition: 0.4s;
+}
 
 /*-- CONTENT --*/
 
@@ -154,6 +173,10 @@ h4{
 #first-section-content button{
     float: left;
     clear: both;
+}
+
+#spots-available{
+    display: none;
 }
 
 #countdown {
@@ -325,8 +348,16 @@ h4{
     margin: 0 0 25px;
 }
 
-#fourth-section img{
+#fourth-section img.desk{
     margin-top: 20px;
+}
+
+#fourth-section img.mobile{
+    display: none;
+}
+
+#fourth-section button.mobile{
+    display: none;
 }
 
 /*-- FIFTH SECTION --*/
@@ -522,3 +553,4 @@ footer section#bottom p{
     margin: 0;
     float: right;
 }
+

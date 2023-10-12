@@ -43,4 +43,14 @@ document.addEventListener("DOMContentLoaded", function() {
         document.getElementById('seconds').textContent = seconds.toString().padStart(2, '0');
         }
     }, 1000);
+
+    // BURGUER MENU
+
+    const burguerButton = document.querySelector(".burguer-menu");
+    const navList = document.querySelector("nav ul");
+
+      burguerButton.addEventListener("click", () => {
+      navList.classList.toggle("show-menu");
+    
+   });
 });
