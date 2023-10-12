@@ -25,13 +25,7 @@
 
     #yellow-bar{
         width: 65%;
-        height: 9999px;
-        z-index: -1;
-        position: fixed;
-        right: 0;
         top: 5rem;
-        background-color: var(--yellow);
-        border-radius: 3rem 0 0 0;
     }
 
     nav ul {
@@ -223,7 +217,7 @@
 
     #fifth-section article{
         width: 60%;
-        height: 363px;
+        height: auto;
         padding: 50px;
     }
 

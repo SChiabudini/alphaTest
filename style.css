@@ -88,7 +88,7 @@ nav ul li a:hover{
 /*-- BURGUER MENU --*/
 
 .burguer-menu {
-    display: none; /* Oculta el botón por defecto */
+    display: none;
     background: none;
     border: none;
     cursor: pointer;

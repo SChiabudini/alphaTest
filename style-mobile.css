@@ -1,0 +1,184 @@
+/*-- MOBILE --*/
+
+:root{
+    --grey1: #F9F9F9;
+    --grey2: #333333;
+    --grey3: #C4C4C4;
+    --pink: #DD71C6;
+    --blue: #0083D3;
+    --light-blue: #73C3F4;
+    --yellow: #FFD900;
+    --fontFamily-text: 'Montserrat', sans-serif;
+    --fontFamily-titles: 'Libre Baskerville', serif;
+}
+
+@media (max-width: 740px){
+
+    .container{
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    #yellow-bar{
+        width: 50%;
+        top: 0;
+    }
+
+    header .container{
+        width: 100%;
+        padding: 0 1.25rem;
+        box-sizing: border-box;
+    }
+
+    h1 img.logo{
+        width: 88px;
+    }
+
+    .bar{
+        width: 20px;
+        height: 2px;
+    }
+
+    nav ul{
+        margin-bottom: 2rem;
+    }
+
+    nav ul li{
+        line-height: 40px;
+    }
+    
+    section{
+        padding: 3rem 0;
+    }
+
+    h3{
+        font-size: 24px;
+    }
+
+    h4{
+        font-size: 20px;
+    }
+
+    #first-section-content h2 {
+        width: 100%;
+        margin: 0 0 1rem;
+        text-align: center;
+        font-size: 30px;
+        line-height: 48px;
+    }
+
+    #first-section-content p{
+        width: 100%;
+        text-align: center;
+    }
+
+    #countdown{
+        width: 100%;
+        height: auto;
+    }
+
+    p.time-label{
+        font-size: 8px !important;
+    }
+
+    #days, #hours, #minutes, #seconds{
+        font-size: 18px;
+    }
+
+    #second-section-content article{
+        width: calc(50% - 0.5rem);
+        margin-bottom: 1rem;
+    }
+
+    #second-section-content article::before{
+        padding-bottom: 0;
+        height: 160px;
+    }
+
+    #second-section-content article .article-content p{
+        font-size: 12px;
+        line-height: 19px;
+        margin: 0 0.5rem;
+    }
+
+    #second-section-content article .article-content p.big-number{
+        font-size: 18px;
+    }
+
+    #second-section-content button{
+        margin-top: 1rem;
+    }
+
+    #third-section .container{
+        background-size: 100% auto;
+        padding-bottom: 20rem;
+    }
+
+    #third-section .container h3{
+        width: 100%;
+    }
+
+    #third-section .container p{
+        width: 100%;
+    }
+
+    #fourth-section .container h3{
+        width: 100%;
+    }
+
+    #fourth-section .container p{
+        width: 100%;
+    }
+
+    #fourth-section div.mobile{
+        height: 300px;
+    }
+
+    #fifth-section .container h3{
+        width: 100%;
+    }
+
+    #fifth-section article{
+        width: 100%;
+        height: auto;
+        padding: 1rem;
+    }
+
+    #fifth-section h4{
+        font-size: 18px;
+    }
+
+    #sixth-section h3{
+        width: 100%;
+    }
+
+    #FAQS{
+        width: 100%;
+    }
+
+    #sixth-section .faq .question{
+        margin-bottom: 0.5rem;
+        line-height: 25px;
+        border-radius: 0.5rem;
+    }
+
+    #sixth-section .faq .question p{
+        margin: 0rem 15px 0rem 5px;
+        padding: 0.5rem 25px 0.5rem 0.5rem;
+        background-size: 12px;
+        font-size: 12px;
+    }
+
+    #sixth-section button{
+        display: none;
+    }
+
+    footer section.left{
+        float: none;
+        width: 100%;
+    }
+
+    footer .social{
+        margin-bottom: 2rem;
+    }
+}
