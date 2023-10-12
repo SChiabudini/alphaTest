@@ -28,6 +28,10 @@
         top: 5rem;
     }
 
+    #main-circle-one, footer .circleOne{
+        display: none;
+    }
+
     nav ul {
       display: none;
       margin-top: 60px;

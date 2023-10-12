@@ -23,6 +23,15 @@
         width: 50%;
         top: 0;
     }
+    
+    .circleOne, .circleTwo, .circleThree{
+        display: none;
+    }
+
+    #main-circle-two, #third-section .circleTwo{
+        display: block;
+    }
+
 
     header .container{
         width: 100%;
